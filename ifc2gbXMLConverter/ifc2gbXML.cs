@@ -47,7 +47,6 @@ namespace ifc2gbXMLConverter
                 outFile = outFile + "\\" + Path.ChangeExtension(Path.GetFileName(inFile), "xml");
             }
             string appPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            string journalPath = appPath + @"\Autodesk\Revit\Autodesk Revit 2015\Journals";
             string tmpIfclFile = appPath + @"\ifc2gbXML\in.ifc";
             string tmpXmlFile = appPath + @"\ifc2gbXML\out.xml";
             IntPtr hWnd = IntPtr.Zero;
@@ -73,9 +72,7 @@ namespace ifc2gbXMLConverter
                 File.Delete(outFile);
             }
             File.Copy(inFile, tmpIfclFile);
-
             ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.WorkingDirectory = journalPath;
             startInfo.FileName = this.revitPath + @"\Revit.exe";
             startInfo.Arguments = journal + " /nosplash";
             process = Process.Start(startInfo);
