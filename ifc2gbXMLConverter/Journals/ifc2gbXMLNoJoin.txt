@@ -17,7 +17,7 @@ Set Jrn = CrsJournalScript
 ' 0:< ::0:: Delta VM: Avail -722 -> 134216559 MB, Used +109 -> 172 MB, Peak +101 -> 172 MB; RAM: Avail -128 -> 1834 MB, Used +132 -> 242 MB, Peak +132 -> 242 MB 
 ' 0:< Autodesk Revit 2015 
 ' 0:< 64-bit load point = C:\Program Files\Autodesk\Revit 2015 
-' 0:< this journal = C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt 
+' 0:< this journal = C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt 
 ' 0:< ::0:: Delta VM: Avail -55 -> 134216505 MB, Used +7 -> 180 MB, Peak +40 -> 213 MB; RAM: Avail -21 -> 1813 MB, Used +19 -> 262 MB, Peak +19 -> 262 MB 
 '  0.191944   1:<<<DictionaryAnalysis::initialize 
 ' 0:< Journal Init 
@@ -411,7 +411,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  ' 0:< ::4:: Delta VM: Avail -17 -> 134216169 MB, Used +4 -> 248 MB, Peak +4 -> 250 MB; RAM: Avail -6 -> 1689 MB, Used +7 -> 376 MB, Peak +7 -> 378 MB 
  'H 15-Oct-2015 14:12:36.027;   0:< 
  Jrn.Data "FileDialog"  _
-         , "IDOK", "C:\Users\ProcLauncher\AppData\Local\ifc2gbXML\in.ifc", "ifc" _
+         , "IDOK", "C:\ProgramData\ifc2gbXML\in.ifc", "ifc" _
          , "in.ifc", ""
  'H 15-Oct-2015 14:12:36.028;   0:< 
  Jrn.Data "FileType"  _
@@ -426,7 +426,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  Jrn.Directive "DocSymbol"  _
          , "[Project1]"
  ' 1:< File: Open 
- ' 2:< Connecting session [$4dc2c892] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt] 
+ ' 2:< Connecting session [$4dc2c892] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt] 
  '  0.000073     3:<<<WorksharingLog::getSlog [] 
  ' 2:< Additional IP address/name found for host WIN-UFG2MQFG8GM: fe80::cfd:92f:f5ff:fdf0%13  
  ' 2:< Additional IP address/name found for host WIN-UFG2MQFG8GM: 10.0.2.15  
@@ -499,7 +499,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   '  0.000746       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
   '  0.000062       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
   '  0.000002        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
-  ' 5:< Connecting session [$c94f7f6f] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt] 
+  ' 5:< Connecting session [$c94f7f6f] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt] 
   '  0.000019        6:<<<WorksharingLog::getSlog [] 
   ' 5:< Additional IP address/name found for host WIN-UFG2MQFG8GM: fe80::cfd:92f:f5ff:fdf0%13  
   ' 5:< Additional IP address/name found for host WIN-UFG2MQFG8GM: 10.0.2.15  
@@ -1908,7 +1908,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   '  0:< ::attachToElem() actually attaching [282705,1]+[282703,0]
   '  1:< Separating family id = 269490 : [Wind-094 268438718] <Top Level> ...
   '  3:< Unnecessary nesting;d:\ship\2015_px64\source\revit\revitdb\family\FamilyBaseUI.cpp;334;ID_SAVE_FAMILY ;N++E(N);
-  '  5:< Connecting session [$158c3127] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt]
+  '  5:< Connecting session [$158c3127] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0074.txt]
   '  5:< Additional IP address/name found for host WIN-UFG2MQFG8GM: fe80::cfd:92f:f5ff:fdf0%13 
   '  5:< Additional IP address/name found for host WIN-UFG2MQFG8GM: 10.0.2.15 
   '   0.218321     3:<<LoadedFamilySaver::exec
@@ -2529,7 +2529,7 @@ Jrn.Directive "AllowPressAndDrag"  _
           , "Next..., Control_EnergyAnalysis_Export"
 'H 15-Oct-2015 14:14:39.503;   0:< 
 Jrn.Data "FileDialog"  _
-        , "IDOK", "C:\Users\ProcLauncher\AppData\Local\ifc2gbXML\out.xml", "xml" _
+        , "IDOK", "C:\ProgramData\ifc2gbXML\out.xml", "xml" _
         , "out.xml", ""
 'H 15-Oct-2015 14:14:39.504;   0:< 
 Jrn.Data "FileType"  _

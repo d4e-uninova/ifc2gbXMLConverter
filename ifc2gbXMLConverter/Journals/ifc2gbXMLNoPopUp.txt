@@ -17,7 +17,7 @@ Set Jrn = CrsJournalScript
 ' 0:< ::0:: Delta VM: Avail -724 -> 134216558 MB, Used +104 -> 166 MB, Peak +96 -> 166 MB; RAM: Avail -111 -> 1350 MB, Used +127 -> 236 MB, Peak +127 -> 236 MB 
 ' 0:< Autodesk Revit 2015 
 ' 0:< 64-bit load point = C:\Program Files\Autodesk\Revit 2015 
-' 0:< this journal = C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt 
+' 0:< this journal = C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt 
 ' 0:< ::0:: Delta VM: Avail -55 -> 134216503 MB, Used +8 -> 174 MB, Peak +40 -> 207 MB; RAM: Avail -20 -> 1330 MB, Used +20 -> 256 MB, Peak +20 -> 256 MB 
 '  1.274298   1:<<<DictionaryAnalysis::initialize 
 ' 0:< Journal Init 
@@ -411,7 +411,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  ' 0:< ::4:: Delta VM: Avail -15 -> 134216164 MB, Used 257 MB, Peak +3 -> 261 MB; RAM: Avail +5 -> 1219 MB, Used +4 -> 386 MB, Peak +5 -> 387 MB 
  'H 24-Jul-2015 14:05:53.831;   0:< 
  Jrn.Data "FileDialog"  _
-         , "IDOK", "C:\Users\ProcLauncher\AppData\Local\ifc2gbXML\in.ifc", "ifc" _
+         , "IDOK", "C:\ProgramData\ifc2gbXML\in.ifc", "ifc" _
          , "in.ifc", ""
  'H 24-Jul-2015 14:05:53.831;   0:< 
  Jrn.Data "FileType"  _
@@ -426,7 +426,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
  Jrn.Directive "DocSymbol"  _
          , "[Project1]"
  ' 1:< File: Open 
- ' 2:< Connecting session [$45501e30] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt] 
+ ' 2:< Connecting session [$45501e30] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt] 
  '  0.000165     3:<<<WorksharingLog::getSlog [] 
  ' 2:< Additional IP address/name found for host WIN-DAGP2QCH00H: fe80::14d6:32b3:f5ff:fdf0%14  
  ' 2:< Additional IP address/name found for host WIN-DAGP2QCH00H: 10.0.2.15  
@@ -503,7 +503,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   '  0.008325       5:<<<EndOrAbortUndoTransaction() -- trackers regen;DOPT; 
   '  0.000124       5:<<<EndOrAbortUndoTransaction()--AtomViewReferencingUpdate();DOPT; 
   '  0.000007        6:<<<EndOrAbortUndoTransaction()--end of transaction checks--invisible elements;DOPT; 
-  ' 5:< Connecting session [$c727fe8b] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt] 
+  ' 5:< Connecting session [$c727fe8b] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt] 
   '  0.000068        6:<<<WorksharingLog::getSlog [] 
   ' 5:< Additional IP address/name found for host WIN-DAGP2QCH00H: fe80::14d6:32b3:f5ff:fdf0%14  
   ' 5:< Additional IP address/name found for host WIN-DAGP2QCH00H: 10.0.2.15  
@@ -921,7 +921,7 @@ Jrn.Directive "IdleTimeTaskSymbol"  _
   ' 4:< ::attachToElem() actually attaching [263854,1]+[263843,0] 
   ' 2:< DBG_INFO: Could not get material property type from RenderingAsset! Name is MasonryCMUSchema.: line 264 of RvtLink\ExternalFileUtils.cpp. 
   ' 7:< Unnecessary nesting;Family\FamilyDocument.cpp;642;ContentADoc__UpdateReplicasInSmallDocStep;N++EB(NB); 
-  ' 9:< Connecting session [$87a0d246] to Worksharing Log [C:\Users\ProcLauncher\AppData\Local\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt] 
+  ' 9:< Connecting session [$87a0d246] to Worksharing Log [C:\ProgramData\Autodesk\Revit\Autodesk Revit 2015\Journals\journal.0041.txt] 
   ' 9:< Additional IP address/name found for host WIN-DAGP2QCH00H: fe80::14d6:32b3:f5ff:fdf0%14  
   ' 9:< Additional IP address/name found for host WIN-DAGP2QCH00H: 10.0.2.15  
   ' 8:< Excusing Content Doc "Transaction Successful": ContentADoc__UpdateReplicasInSmallDocStep 
@@ -2514,7 +2514,7 @@ Jrn.Directive "AllowPressAndDrag"  _
          , "Next..., Control_EnergyAnalysis_Export"
 'H 24-Jul-2015 14:08:11.058;   0:< 
 Jrn.Data "FileDialog"  _
-        , "IDOK", "C:\Users\ProcLauncher\AppData\Local\ifc2gbXML\out.xml", "xml" _
+        , "IDOK", "C:\ProgramData\ifc2gbXML\out.xml", "xml" _
         , "out.xml", ""
 'H 24-Jul-2015 14:08:11.058;   0:< 
 Jrn.Data "FileType"  _

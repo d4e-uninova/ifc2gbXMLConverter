@@ -46,7 +46,7 @@ namespace ifc2gbXMLConverter
             {
                 outFile = outFile + "\\" + Path.ChangeExtension(Path.GetFileName(inFile), "xml");
             }
-            string appPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string appPath = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
             string tmpIfclFile = appPath + @"\ifc2gbXML\in.ifc";
             string tmpXmlFile = appPath + @"\ifc2gbXML\out.xml";
             IntPtr hWnd = IntPtr.Zero;
